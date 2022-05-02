@@ -3,6 +3,7 @@
 ## Discord Bot Applications
 
 ### Disregarding our own messages
+
 A quirk of using an API that propagates every text message is that our bot will recieve its own messages! Before we add functionality to our bot, we will add a condition that ensures that we don't try to process the messages that we send ourselves.
 
 ```python
@@ -14,6 +15,7 @@ async def on_message(self, message):
 This compares the snowflake ID of the message author to our bot ID. If the two are equal, we do nothing.
 
 ### Respond to messages from users
+
 ```python
 async def on_message(message):
 	if message.content.startswith('$hello'):
@@ -24,6 +26,7 @@ async def on_message(message):
 
 
 ### Welcome new users to discord server
+
 ```python
 async def on_member_join(member):
     await member.create_dm()
@@ -34,6 +37,7 @@ async def on_member_join(member):
 * The other function here, on_member_join(), tells the program what to do when a new member joins the server. When the function is called, the program will wait for the member argument to create a direct message channel to communicate with the bot. When that's done, a greeting will be sent to the user before the function returns.
 
 ### Handling errors
+
 ```python
 async def on_message(message):
     if message.author == client.user:
