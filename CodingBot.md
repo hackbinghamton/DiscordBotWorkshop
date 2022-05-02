@@ -3,30 +3,12 @@
 
 ### Welcome new users to discord server
 ```python
-import os
-import discord
-from dotenv import load_dotenv
-
-load_dotenv() #take environment variables from .env
-TOKEN = os.getenv('DISCORD_TOKEN')
-
-client = discord.Client()
-
-@client.event
-async def on_ready():
-    print(f'{client.user.name} has connected to Discord!')
-
-@client.event
 async def on_member_join(member):
     await member.create_dm()
     await member.dm_channel.send(
         f'Hi {member.name}, welcome to my Discord server!'
     )
-
-client.run(TOKEN)
 ```
-* Note: You may have to install the python dotenv module for this program to work. You can do this by running pip install -U python-dotenv from your command line (this should work for everyone).
-* on_ready() is a function that registers to listen to. In the case, the event associated with on_ready() is the member joining the discord server. When that event has successfully completed, on_ready will be called.
 * The other function here, on_member_join(), tells the program what to do when a new member joins the server. When the function is called, the program will wait for the member argument to create a direct message channel to communicate with the bot. When that's done, a greeting will be sent to the user before the function returns.
 
 ### Respond to messages from users
