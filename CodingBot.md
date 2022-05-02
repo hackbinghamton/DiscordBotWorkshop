@@ -13,6 +13,16 @@ async def on_message(self, message):
 
 This compares the snowflake ID of the message author to our bot ID. If the two are equal, we do nothing.
 
+### Respond to messages from users
+```python
+async def on_message(message):
+	if message.content.startswith('$hello'):
+		await message.channel.send('Hello World!')
+```
+* Another thing you can do with discord bots is use them to respond to messages from users based on what the message says. In this example, we are telling the bot to respond to a message beginning with "hello" with "Hello World!"
+* You can use the same function to respond to any message with any response you like.
+
+
 ### Welcome new users to discord server
 ```python
 async def on_member_join(member):
@@ -22,15 +32,6 @@ async def on_member_join(member):
     )
 ```
 * The other function here, on_member_join(), tells the program what to do when a new member joins the server. When the function is called, the program will wait for the member argument to create a direct message channel to communicate with the bot. When that's done, a greeting will be sent to the user before the function returns.
-
-### Respond to messages from users
-```python
-async def on_message(message):
-	if message.content.startswith('$hello'):
-		await message.channel.send('Hello World!')
-```
-* Another thing you can do with discord bots is use them to respond to messages from users based on what the message says. In this example, we are telling the bot to respond to a message beginning with "hello" with "Hello World!"
-* You can use the same function to respond to any message with any response you like.
 
 ### Handling errors
 ```python
