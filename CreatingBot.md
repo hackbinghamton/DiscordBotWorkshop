@@ -75,4 +75,4 @@ async def on_message(self, message):
 
 Now, this is the best part of making a Discord bot. Just look at how much fun stuff that [Message](https://discordpy.readthedocs.io/en/stable/api.html#discord.Message) exposes!
 
-Continue on to [Coding Our Discord Bot](CodingBot.md) to see where to go from here.
+Continue on to the [next section](CodingBot.md) to see where to go from here.
