@@ -10,19 +10,19 @@ Head over to https://discord.com/register and fill out the form to create an acc
 
 Visit the [Discord Developer portal](https://discord.com/developers/applications). Select New Application and give it a name, then hit Create. Now you have a page with your application information, which would be used by your bot.
 
-<img src="docs/create-an-application.png" alt="img" style="zoom:30%;" />
+<img src="docs/create-an-application.png" style="zoom:30%;" />
 
 Now, on the sidebar of your application page, select Bot to see all your bots, or create a new one. Select ‘Create Bot’ to create a bot (**this is irreversible**). 
 
 Now you have a dashboard for that bot within your application. To see your bot token, select ‘Reset Token’. (**This can only be done once so save it**)
 
-<img src="docs/dashboard.png" alt="img" style="zoom: 25%;" />
+<img src="docs/dashboard.png" style="zoom: 25%;" />
 
 ## Creating a Discord Server
 
 Head over to the discord app/website. Scroll to the bottom of your server list on the left side, and click on the plus (+) icon to add a server. Follow the steps to create a server, and you should have a screen similar to the one on this slide (created using a server template for friends). 
 
-<img src="docs/new-server.png" alt="img" style="zoom:33%;" />
+<img src="docs/new-server.png" style="zoom:33%;" />
 
 ## Adding a Bot to your server
 
