@@ -4,25 +4,27 @@ Before you can make a discord bot, you first have to create a discord account, a
 
 ## Discord Account Creation
 
-Head over to https://discord.com/register and fill out the form to create an account. If you already have an account, you could skip this step by just logging into it. 
+If you do not already have a Discord account, you can head over to https://discord.com/register to create the account.
+
+Make sure you log into your Discord account on your browser, as that is where the developer portal is located.
 
 ## Creating a Discord Application
 
 Visit the [Discord Developer portal](https://discord.com/developers/applications). Select New Application and give it a name, then hit Create. Now you have a page with your application information, which would be used by your bot.
 
-<img src="https://lh5.googleusercontent.com/FsG0Mcb60e5iJ3AOe1jPnK74hbuDPlbTn0Wk9EnwfN5FuEmp22DuI4mbl9d16gU2vRPoZX_gncaWe18YbTI2m5_87zac4G0yyTMUMaVv4qwtlyHBBoPTiiUOJC8w1KFOPbUcCewZ00HNJcNsTKRggQ" alt="img" style="zoom:30%;" />
+<img src="docs/create-an-application.png" style="zoom:30%;" />
 
 Now, on the sidebar of your application page, select Bot to see all your bots, or create a new one. Select ‘Create Bot’ to create a bot (**this is irreversible**). 
 
 Now you have a dashboard for that bot within your application. To see your bot token, select ‘Reset Token’. (**This can only be done once so save it**)
 
-<img src="https://lh6.googleusercontent.com/d31ibGOv4ceml8ft9bBxWs_pqCZR_q9mlHQJX---ihHtBeeHE2Qkiv7CTn2my7fr7g0j899VbawyUzEBoNfhtwRuAjY2maYqg7lKipqrHqa1ibTSqQz0RJQdBCjsshbCEMQTTt4MKcBG7bPNk52bjQ" alt="img" style="zoom: 25%;" />
+<img src="docs/dashboard.png" style="zoom: 25%;" />
 
 ## Creating a Discord Server
 
 Head over to the discord app/website. Scroll to the bottom of your server list on the left side, and click on the plus (+) icon to add a server. Follow the steps to create a server, and you should have a screen similar to the one on this slide (created using a server template for friends). 
 
-<img src="https://lh5.googleusercontent.com/YqkPOu019_0i_m4ujZgXYyKwkSq31Bca3oX-QQOvf6CZOVzG6OCPc7fgZhskBD3SsfzccYa5uFvyXxfjBc0KT0HyJSC29nqtO7N_st7uAv0jvLBOAo8mQfnRETIvJ2ICbCowbDeSVRoESCr-LuScyA" alt="img" style="zoom:33%;" />
+<img src="docs/new-server.png" style="zoom:33%;" />
 
 ## Adding a Bot to your server
 
