@@ -4,7 +4,9 @@ Before you can make a discord bot, you first have to create a discord account, a
 
 ## Discord Account Creation
 
-Head over to https://discord.com/register and fill out the form to create an account. If you already have an account, you could skip this step by just logging into it. 
+If you do not already have a Discord account, you can head over to https://discord.com/register to create the account.
+
+Make sure you log into your Discord account on your browser, as that is where the developer portal is located.
 
 ## Creating a Discord Application
 
