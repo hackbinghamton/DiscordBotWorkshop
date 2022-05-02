@@ -75,17 +75,4 @@ async def on_message(self, message):
 
 Now, this is the best part of making a Discord bot. Just look at how much fun stuff that [Message](https://discordpy.readthedocs.io/en/stable/api.html#discord.Message) exposes!
 
-First, we actually have to disregard messages that are from ourselves:
-
-```python
-if message.author == self.user:
-  	return
-```
-
-This compares the snowflake ID of the message author to our bot ID. Now, we can add a command:
-
-```python
-if message.content.startswith(".idea"):
-	await message.reply("Okay, so how about this:")	
-```
-
+Continue on to [Coding Our Discord Bot](CodingBot.md) to see where to go from here.

@@ -1,5 +1,17 @@
 # Coding Our Discord Bot
+
 ## Discord Bot Applications
+
+### Disregarding our own messages
+A quirk of using an API that propagates every text message is that our bot will recieve its own messages! Before we add functionality to our bot, we will add a condition that ensures that we don't try to process the messages that we send ourselves.
+
+```python
+async def on_message(self, message):
+    if message.author == self.user:
+        return
+```
+
+This compares the snowflake ID of the message author to our bot ID. If the two are equal, we do nothing.
 
 ### Welcome new users to discord server
 ```python
