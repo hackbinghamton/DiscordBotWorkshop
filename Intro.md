@@ -18,6 +18,8 @@ Now, on the sidebar of your application page, select Bot to see all your bots, o
 
 Now you have a dashboard for that bot within your application. To see your bot token, select ‘Reset Token’. (**This can only be done once so save it**)
 
+For this workshop, you currently must also enable the "message content" intent. Scroll down to ‘Message Content Intent‘, and enable it.
+
 <img src="docs/dashboard.png" style="zoom: 25%;" />
 
 ## Creating a Discord Server
