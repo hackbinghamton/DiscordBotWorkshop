@@ -34,8 +34,8 @@ To add a bot, you head back to your application dashboard and select OAuth2 > UR
 
 Install discord.py:
 
-- On Windows, run `py -3 -m pip install -U discord.py`
-- Otherwise, run `python3 -m pip install -U discord.py`
+- On Windows, run `py -3 -m pip install -I discord.py==1.4`
+- Otherwise, run `python3 -m pip install -I discord.py==1.4`
 
 Install dotenv:
 
