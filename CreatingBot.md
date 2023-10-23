@@ -42,6 +42,17 @@ import discord
 class MyBot(discord.Client):
 ```
 
+Next, setup intents. You can find more details in [Intents.md](Intents.md) if you'd like to learn more.
+
+```python
+intents = discord.Intents.default()
+intents.message_content = True
+
+class MyBot(discord.Client):
+	def __init__(self):
+		super(discord.Client, self).__init__(intents=intents)
+```
+
 `discord.Client` has [different events that it listens for](https://discordpy.readthedocs.io/en/stable/api.html#discord-api-events). The `on_ready` coroutine is added to the event loop when the bot is ready to start working. Let's override it with a simple informative message:
 
 ```python
