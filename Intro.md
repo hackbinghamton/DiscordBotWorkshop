@@ -44,7 +44,13 @@ Install dotenv:
 - On Windows, run `py -3 -m pip install -U python-dotenv`
 - Otherwise, run `python3 -m pip install -U python-dotenv`
 
-Clone the workshop repo and open it up https://github.com/HackBinghamton/DiscordBotWorkshop. Paste in your bot token from earlier into the .env file, and run main.py to connect to your discord bo. If the program says your ‘bot has connected to Discord’ and prints out registered servers, you are done with the setup process!
+Clone the workshop repo and open it up https://github.com/HackBinghamton/DiscordBotWorkshop.
+
+Open the `.env` file, and paste your token in:
+
+```
+TOKEN=(insert your token here!)
+```
 
 ## Next Section
 
