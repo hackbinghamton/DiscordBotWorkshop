@@ -1,14 +1,5 @@
 # Creating a Discord Bot with discord.py
 
-## Installation
-
-To create a Discord bot and setup a development environment with discord.py, please refer to [the slides for this workshop](https://docs.google.com/presentation/d/1P6_EonmytWJQI1XNK5hN7Z9uGZqu5r3KNbyq1u3FTMg/edit?usp=sharing).
-
-Once you've gone through this process, you should have your bot token. Put this in a `.env` file, formatted like so:
-```python
-TOKEN=YOUR_BOT_TOKEN_HERE
-```
-
 ## Usage
 
 Let's make a Discord bot! We start out our `main.py` file with the usual boilerplate, including a [Python 3 shebang](https://stackoverflow.com/a/19305076) and [main function](https://stackoverflow.com/a/419185), both for best practice:
