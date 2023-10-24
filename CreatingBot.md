@@ -41,14 +41,14 @@ intents.message_content = True
 
 class MyBot(discord.Client):
 	def __init__(self):
-		super(discord.Client, self).__init__(intents=intents)
+		super(MyBot, self).__init__(intents=intents)
 ```
 
 `discord.Client` has [different events that it listens for](https://discordpy.readthedocs.io/en/stable/api.html#discord-api-events). The `on_ready` coroutine is added to the event loop when the bot is ready to start working. Let's override it with a simple informative message:
 
 ```python
-async def on_ready(self):
-	print('Logged on as {0}!'.format(self.user))
+	async def on_ready(self):
+		print('Logged on as {0}!'.format(self.user))
 ```
 
 This is enough for our `MyBot` class for now. Let's work on putting together our `main` function. We have our token in the `.env` file, and need to retrieve it using the `dotenv` package:
@@ -72,7 +72,7 @@ The [`Client.run()` function](https://discordpy.readthedocs.io/en/stable/api.htm
 Back to writing code. Let's add another method to our `MyBot` class. This is a coroutine that gets executed whenever a new message is sent:
 
 ```python
-async def on_message(self, message):
+	async def on_message(self, message):
 ```
 
 Now, this is the best part of making a Discord bot. Just look at how much fun stuff that [Message](https://discordpy.readthedocs.io/en/stable/api.html#discord.Message) exposes!
