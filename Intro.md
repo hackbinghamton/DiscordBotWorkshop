@@ -46,7 +46,7 @@ Install dotenv:
 
 Clone the workshop repo and open it up https://github.com/HackBinghamton/DiscordBotWorkshop.
 
-Open the `.env` file, and paste your token in:
+Create a file named `.env`, and paste your token in (do not include the parenthesis):
 
 ```
 TOKEN=(insert your token here!)
